@@ -9,6 +9,24 @@ $(window).load(function(){
 		}, 1000);
 });
 $('document').ready(function(){
+	const urlParams = new URLSearchParams(window.location.search);
+			const personName = urlParams.get('personName');
+			const nameEl = $('<h4 style="color:#20CFB4"></h4>');
+			nameEl.text(personName.split(" ")[0])
+			$('.celebrantName').append(nameEl);
+			// })
+			// Church Name
+			const churchName = urlParams.get('churchName');
+			$('#churchName').text(churchName);
+			
+			// Church Logo
+			const churchLogo = urlParams.get('churchLogo');
+			if (churchLogo) {
+				const churchLogoEl = $(`<img src=${churchLogo} alt=churchlogo />`);
+				$("#churchLogo").append(churchLogoEl)
+			}
+
+
 		var vw;
 		$(window).resize(function(){
 			 vw = $(window).width()/2;
@@ -194,13 +212,40 @@ $('document').ready(function(){
 			// Setting attributes to the div element
 			// newDiv.attr('id', 'myDiv');
 			// newDiv.attr('class', 'myClass');
-			message.split(" ").forEach(i => {
-				const messageEl = $('<p></p>');
-				messageEl.text(i)
-				console.log(messageEl)
-				// Appending the div element to the body
-				$('#celebrantmessage').append(messageEl);
-			})
+			// let displayedMessage = ""
+			// const plusIndex = 5
+			// for (let i = 0; i < message.split(" ").length; i++) {
+			// 	const element = message.split(" ")[i];
+			// 	if(i <= (i + plusIndex)) {
+			// 		// console.log(element)
+			// 		let messageEl = $('<p></p>');
+			// 		displayedMessage += ` ${element}`
+			// 		messageEl.text(displayedMessage)
+			// 		console.log(displayedMessage, 'working')
+
+			// 	}
+
+				
+			// }
+			 // Split the text into words
+			 var words = message.split(' ');
+
+			 // Container to hold paragraphs
+			 var container = $('#celebrantmessage');
+	   
+			 // Create paragraphs
+			 for (var i = 0; i < words.length; i += 5) {
+			   var fiveWords = words.slice(i, i + 5).join(' ');
+			   var paragraph = $('<p>').text(fiveWords);
+			   container.append(paragraph);
+			 }
+		//    });
+			// message.split(" ").forEach(i => {
+				
+			// 	console.log(messageEl)
+			// 	// Appending the div element to the body
+			// 	$('#celebrantmessage').append(messageEl);
+			// })
 			
 		}, 4000);
 		setTimeout(() => {
