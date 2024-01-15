@@ -275,6 +275,228 @@ body {
 		opacity: 1;
 	}
 }
+.church-logo {
+	/* background-image: url('bulb_red.png'); */
+	-webkit-animation: church_logo linear 5s;
+	-moz-animation: church_logo linear 5s;
+	-o-animation: church_logo linear 5s;
+	-ms-animation: church_logo linear 5s;
+	animation: church_logo linear 5s;
+}
+
+@-webkit-keyframes church_logo {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@-moz-keyframes church_logo {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@-o-keyframes church_logo {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@-ms-keyframes church_logo {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@keyframes church_logo {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+.powered-by-churchplus {
+	/* background-image: url('bulb_red.png'); */
+	-webkit-animation: powered_churchplus linear 5s;
+	-moz-animation: powered_churchplus linear 5s;
+	-o-animation: powered_churchplus linear 5s;
+	-ms-animation: powered_churchplus linear 5s;
+	animation: powered_churchplus linear 5s;
+}
+
+@-webkit-keyframes powered_churchplus {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@-moz-keyframes powered_churchplus {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@-o-keyframes powered_churchplus {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@-ms-keyframes powered_churchplus {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@keyframes powered_churchplus {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+.person-image {
+	/* background-image: url('bulb_red.png'); */
+	-webkit-animation: person_image linear 5s;
+	-moz-animation: person_image linear 5s;
+	-o-animation: person_image linear 5s;
+	-ms-animation: person_image linear 5s;
+	animation: person_image linear 5s;
+}
+
+@-webkit-keyframes person_image {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@-moz-keyframes person_image {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@-o-keyframes person_image {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@-ms-keyframes person_image {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
+@keyframes person_image {
+	0%{
+		/* background-image: url('bulb.png'); */
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		/* background-image: url('bulb_red.png'); */
+		opacity: 1;
+	}
+}
 .bulb-glow-blue {
 	background-image: url('bulb_blue.png');
 	-webkit-animation: bulb_glow_blue linear 5s;
@@ -1299,6 +1521,23 @@ audio {
         color: #fff;
         background-color: #466baf;
     }
+
+	.person-image-transform {
+		transform: translate(50%, -330px) scale(0.3);
+		transition: all 2s ease-in-out;
+	}
+
+	.person-image-con-bg {
+		background-color: #F6A354;
+		border-radius: 20px;
+		/* width: 759px; */
+		padding: 36px;
+		transition: all 2s ease-in-out;
+	}
+
+	.absolute-con {
+		position: absolute;
+	}
 
 
 
