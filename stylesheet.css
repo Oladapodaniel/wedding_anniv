@@ -1523,7 +1523,7 @@ audio {
     }
 
 	.person-image-transform {
-		transform: translate(300px, -330px) scale(0.3);
+		transform: translate(300px, -370px) scale(0.3);
 		transition: all 2s ease-in-out;
 	}
 
