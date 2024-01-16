@@ -51,7 +51,7 @@ $('document').ready(function () {
 		const personImage = urlParams.get('personPhotoUrl');
 		const personImageEl = $(`
 			<div id="person-image-con" style="display:flex;align-items:center">
-				<img style="width:300px;" id="personImage" src=${personImage} />
+				<img style="width:300px;height:300px;object-fit:cover;border-radius:50%" id="personImage" src=${personImage} />
 			</div>
 	    `)
 		$("#personImageContainer").append(personImageEl)
