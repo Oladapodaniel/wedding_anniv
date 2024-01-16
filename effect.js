@@ -63,7 +63,7 @@ $('document').ready(function () {
 		// Church Logo
 		const churchLogo = urlParams.get('churchLogo');
 		if (churchLogo) {
-			const churchLogoEl = $(`<img src=${churchLogo} alt=churchlogo />`);
+			const churchLogoEl = $(`<img src=${churchLogo} style="width: 100px" alt=churchlogo />`);
 			$("#churchLogo").append(churchLogoEl)
 		}
 
