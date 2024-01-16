@@ -193,7 +193,9 @@ $('document').ready(function () {
 			<div style="font-weight:400;font-size:62px;color:#FFF;">${moment().format('ll')}</div>
 		</div>
 		`)
-		$(`#person-image-con`).append(personNameBirthday)
+		setTimeout(() => {
+			$(`#person-image-con`).append(personNameBirthday).fadeIn('slow')
+		}, 3000);
 		$('.cake').fadeIn('slow');
 		// $('#cake_fadein').click(function(){
 		// $(this).fadeOut('slow').delay(3000).promise().done(function(){

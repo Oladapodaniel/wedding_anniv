@@ -1523,7 +1523,7 @@ audio {
     }
 
 	.person-image-transform {
-		transform: translate(50%, -330px) scale(0.3);
+		transform: translate(300px, -330px) scale(0.3);
 		transition: all 2s ease-in-out;
 	}
 
@@ -1537,6 +1537,7 @@ audio {
 
 	.absolute-con {
 		position: absolute;
+		width: 100%;
 	}
 
 
