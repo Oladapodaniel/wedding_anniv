@@ -60,7 +60,7 @@ $('document').ready(function () {
 		const churchName = urlParams.get('churchName');
 		$('#churchName').text(churchName);
 
-		// Church Logo
+		// Church Logoo
 		const churchLogo = urlParams.get('churchLogo');
 		if (churchLogo) {
 			const churchLogoEl = $(`<img src=${churchLogo} style="width: 100px" alt=churchlogo />`);
