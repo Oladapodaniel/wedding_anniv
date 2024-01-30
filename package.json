@@ -1,7 +1,7 @@
 {
-  "name": "birthday",
+  "name": "wedding_anniversary",
   "version": "1.0.0",
-  "description": "Birthday greetings..",
+  "description": "Wedding anniversary greetings..",
   "main": " ",
   "scripts": {
     "serve": "http-server -p 8081"
